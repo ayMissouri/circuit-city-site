@@ -15,7 +15,7 @@ const Product = ({ product }) => {
         <div className="w-full h-[200px] flex items-center justify-center relative">
           <img
             className="h-[160px] group-hover:scale-90 transition-all"
-            src={`http://mc.amissouri.com:1337${product.attributes.image.data.attributes.url}`}
+            src={`https://strapi-production-e916.up.railway.app${product.attributes.image.data.attributes.url}`}
             alt=""
           />
         </div>

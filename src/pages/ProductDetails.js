@@ -24,7 +24,7 @@ const ProductDetails = () => {
         <div className="flex flex-col lg:flex-row gap-[30px] mb-[30px]">
           <div className="flex-l lg:max-w-[40%] lg:h-[540px] grad rounded-lg flex justify-center items-center">
             <img
-              src={`http://mc.amissouri.com:1337${item.image.data.attributes.url}`}
+              src={`https://strapi-production-e916.up.railway.app${item.image.data.attributes.url}`}
               alt=""
               className="w-full"
             />
